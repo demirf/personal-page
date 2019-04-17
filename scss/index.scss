@@ -1,0 +1,88 @@
+main{
+      background: url("https://images.unsplash.com/photo-1511207538754-e8555f2bc187?ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+}
+.Main{
+      &-about{
+            min-height: 100vh;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 10px;
+            padding-right: 10px;
+            h1{
+                  color: #fff;
+            }
+            p{
+                  padding-top: 9px;
+                  color: gainsboro;
+            }
+      }
+      &-links{
+            background-color: #fff;
+            padding-top: 20px;
+            padding-bottom: 20px;            
+            .box{
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                  text-align: center;
+                  a{
+                        padding-top: 30px;
+                        padding-bottom: 30px;
+                        width: 90%;
+                        border: 1px solid #ddd;
+                        border-radius: 5px;
+                        background-color: #ddd;
+                        margin-top: 10px;
+                        color: #000;
+                  }
+            }
+      }
+
+            @media (min-width: 992px) { 
+                  .box{
+                        max-width: 1200px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        justify-content: center;
+                        a{
+                             margin: 10px 10px 10px 10px;
+                             background-color: #f1f1f1;
+                        }
+                        :nth-child(1){
+                              width: 235px;
+                              height: 250px;
+                        }
+                        :nth-child(2){
+                              width: 400px;
+                              height: 250px;
+                        }
+                        :nth-child(3){
+                              width: 235px;
+                              height: 250px;
+                        }
+                        :nth-child(4){
+                              width: 400px;
+                              height: 250px;
+                        }
+                        :nth-child(5){
+                              width: 235px;
+                              height: 250px;
+                        }
+                        :nth-child(6){
+                              width: 235px;
+                              height: 250px;
+                        }
+                  }
+             }
+}
+
+

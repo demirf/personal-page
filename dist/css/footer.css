@@ -1,0 +1,11 @@
+.Footer {
+  background-color: #f1f1f1;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .Footer .container {
+    display: flex;
+    justify-content: center;
+    align-content: center; }
+    .Footer .container a {
+      padding-left: 40px;
+      padding-right: 40px; }
